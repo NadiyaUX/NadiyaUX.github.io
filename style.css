@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    border: purple 3px solid;
+}
+
+li{
+    border:red 3px dotted;
+    flex-basis: 10%;
+    text-align: center;
+    background-color: tomato;
+}
+
+i{
+    color: white;
+}
+
