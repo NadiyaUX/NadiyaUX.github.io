@@ -1,52 +1,74 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #e8e8e8;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 400;
+h1 {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
-.header, footer{
-    background-color: #252541;
+.backgroundcolor1 {
+  background-color: #252541;
+}
+
+.backgroundcolor2 {
+  background-color: #484766;
+}
+
+.backgroundcolor3 {
+  background-color: #e8e8e8;
+}
+
+.header, footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 80%;
 }
 
-.med{
-    background-color: #484766;
-    margin: 0;
-    padding: 2rem;
-    color: white;
-    font-size: 3rem;
+.med {
+  margin: 0 auto;
+  padding: 2rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  width: 75%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
 }
 
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 45rem;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 1.25rem;
+.light {
+  font-family: "Poppins", sans-serif;
+  color: black 1rem;
 }
 
-li{
-    width: 9rem;
-    text-align: center;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 30rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
-
-h2{
-    font-weight: 500;
+li {
+  width: 9rem;
+  text-align: center;
 }
 
+h2 {
+  font-weight: 500;
+  border-bottom: white solid 1px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
